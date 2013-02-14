@@ -1,0 +1,7 @@
+
+<?php \Laravel\Section::start('content'); ?>
+
+    contato!
+
+<?php \Laravel\Section::stop(); ?>
+<?php echo view('common')->with(get_defined_vars())->render(); ?>

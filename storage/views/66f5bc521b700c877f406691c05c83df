@@ -1,0 +1,9 @@
+
+<?php \Laravel\Section::start('content'); ?>
+
+    home
+
+    <a href="<?php echo URL::to('contato/'); ?>">Contato</a>
+
+<?php \Laravel\Section::stop(); ?>
+<?php echo view('common')->with(get_defined_vars())->render(); ?>

@@ -1,0 +1,6 @@
+#exibe-fotos .thumbnails li{ margin-left: 28px; }
+#exibe-fotos .thumbnails li .caption { margin-top: 5px; text-align: center; }
+form.form-busca-produtos .well { clear:both; }
+
+/* submenu de navegação lateral */
+ul#main-nav li div.well { padding: 8px; margin-bottom: 5px; }
