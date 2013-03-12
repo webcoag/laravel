@@ -22,3 +22,9 @@ $environments = array(
 ### Database
 
 Em: ./application/config/database.php pode se configurar as conexões para o banco de dados.
+
+
+### Boas Práticas
+
+
+https://github.com/enricopereira/PSR_PT-BR
