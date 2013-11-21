@@ -5,11 +5,6 @@
 			Asset::add('bootstrap'				, 'css/bootstrap.min.css'					);
 			// exibe os estilos
 			echo Asset::styles();
-			// renderiza dos arquivos JS
-			Asset::add('jquery'					, 'js/jquery-1.7.2.min.js'					);
-			Asset::add('bootstrap-js'			, 'js/bootstrap.min.js'						);
-			// exibe os JS
-			echo Asset::scripts();
 		?> 
 	</head>
 
@@ -18,4 +13,12 @@
 		@yield('content')
 	
 	</body>	
+
+	<?php 
+		// renderiza dos arquivos JS
+		Asset::add('jquery', '//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js');
+		// exibe os JS
+		echo Asset::scripts();
+	?>
+	@yield('scripts')
 </html>

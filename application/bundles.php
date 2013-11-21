@@ -35,7 +35,6 @@
 
 return array(
 
-	'docs'			 => array('handles' => 'docs')	,
 	'bootstrapper' 	 => array('auto' => true)		,
 	'admin'			 => array('handles' => 'admin')
 
