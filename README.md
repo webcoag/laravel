@@ -24,23 +24,16 @@ allow_url_fopen = On
 ### Apache Modules
 rewrite_module = enabled
 
+## Segurança
+
+### API KEY
+Para garantir a segurança das informações enviadas/recebidas gere uma API KEY.
+Você pode utilizar o nosso gerador (http://webco.ag/laravel/secretkey/) para gerar uma chave segura para a aplicação.
+
+#### Configurando a API KEY
+Após gerar sua chave de segurança, atualize-a dentro no arquivo (./application/config/application.php) no parametro 'key'
 
 ## Primeiras Configurações
-
-### Locais
-
-Em: ./paths.php modifique a linha 26 de acordo com o local de instalação do novo projeto.
-
-```php
-<?php
-
-$environments = array(
-
-  'local' => array('http://localhost/laravel*', '*.dev'),
-
-);
-
-```
 
 ### Database
 
@@ -48,6 +41,5 @@ Em: ./application/config/database.php pode se configurar as conexões para o ban
 
 
 ### Boas Práticas
-
 
 https://github.com/enricopereira/PSR_PT-BR
