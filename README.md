@@ -33,12 +33,16 @@ Você pode utilizar o nosso gerador (http://webco.ag/laravel/secretkey/) para ge
 #### Configurando a API KEY
 Após gerar sua chave de segurança, atualize-a dentro no arquivo (./application/config/application.php) no parametro 'key'
 
+## Model Generator
+
+Para facilitar a vida, criamos um gerador de modelos à partir da base de dados.
+Ele pode ser encontrado no link (http://webco.ag/laravel/modelgenerator/)
+
 ## Primeiras Configurações
 
 ### Database
 
 Em: ./application/config/database.php pode se configurar as conexões para o banco de dados.
-
 
 ### Boas Práticas
 
