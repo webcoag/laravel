@@ -3,7 +3,7 @@
 	Class Modulo_Task {
 
 		// set the repos url
-		private $url_repos = "https://api.github.com/repos/webcoag/laravel/contents/application/controllers";
+		private $url_repos = "https://api.github.com/repos/webcoag/modules/contents/noticias";
 		// save the content of repo in array
 		private $repo_content;
 
@@ -14,6 +14,8 @@
 
 		public function install($arguments)
 		{
+			$this->url_repos = $this->url_repos . "/" . $arguments[0];
+
 			if( $this->get_repo_content() )
 			{
 				$repo = $this->repo_content;
